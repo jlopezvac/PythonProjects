@@ -20,6 +20,9 @@ print(list(my_ditcionary.items())[0])
 my_ditcionary["977"] = "Spain"
 print(my_ditcionary)
 
+# modify
+my_ditcionary['Iron Maiden'] = "UK"
+
 # iterate items
 for key, value in my_ditcionary.items():
     print("The bant", key, "is from", value)
