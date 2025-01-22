@@ -1,0 +1,13 @@
+import time
+
+list_comp_start_time = time.time()
+result = [i*i for i in range(0, 1000000000)]
+list_comp_end_time = time.time()
+print(list_comp_end_time - list_comp_start_time)
+
+for_loop_start_time = time.time()
+result=[]
+for i in range(0, 1000000000):
+    result.append(i*i)
+for_loop_end_time = time.time()
+print(for_loop_end_time - for_loop_start_time)
